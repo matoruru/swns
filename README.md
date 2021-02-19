@@ -1,2 +1,2 @@
 # swns
-Switch network services on Mac
+**Sw**itch **n**etwork **s**ervices on Mac
