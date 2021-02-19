@@ -1,2 +1,2 @@
 # swns
-**Sw**itch **n**etwork **s**ervices on Mac
+**SW**itch **N**etwork **S**ervices on Mac
