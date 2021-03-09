@@ -14,7 +14,7 @@ $ chmod +x ~/.local/bin/swns
 
 ### How to add `~/.local/bin` to your `$PATH`
 
-*This section is necessary only when you couldn't find the executable `swns` by `type swns`.*
+*This section is necessary only when you couldn't find the executable* `swns` *by* `type swns`.
 
 - **bash** (in `~/.bash_profile`):
 
