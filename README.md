@@ -12,6 +12,20 @@ curl -o ~/.local/bin/swns \
 chmod +x ~/.local/bin/swns
 ```
 
+### How to add `~/.local/bin` to your `$PATH`
+
+- **bash** (in `~/.bash_profile`):
+
+    ```sh
+    export PATH="$PATH:~/.local/bin"
+    ```
+
+- **fish** (.config/fish/config.fish):
+
+    ```
+    set -x PATH ~/.local/bin $PATH
+    ```
+
 ## Usage
 
 Enter `swns` and then choose the number following the instruction.
