@@ -14,13 +14,15 @@ $ chmod +x ~/.local/bin/swns
 
 ### How to add `~/.local/bin` to your `$PATH`
 
+*This section is necessary only when you couldn't find the executable `swns` by `type swns`.*
+
 - **bash** (in `~/.bash_profile`):
 
     ```sh
     export PATH="$PATH:~/.local/bin"
     ```
 
-- **fish** (.config/fish/config.fish):
+- **fish** (in `.config/fish/config.fish`):
 
     ```
     set -x PATH ~/.local/bin $PATH
