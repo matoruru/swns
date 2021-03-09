@@ -6,10 +6,10 @@
 ## Installation
 
 ```sh
-curl -o ~/.local/bin/swns \
-  --create-dirs https://raw.githubusercontent.com/matoruru/swns/main/swns
+$ curl -o ~/.local/bin/swns \
+    --create-dirs https://raw.githubusercontent.com/matoruru/swns/main/swns
 
-chmod +x ~/.local/bin/swns
+$ chmod +x ~/.local/bin/swns
 ```
 
 ### How to add `~/.local/bin` to your `$PATH`
@@ -29,5 +29,5 @@ chmod +x ~/.local/bin/swns
 ## Usage
 
 ```sh
-swns
+$ swns
 ```
