@@ -28,4 +28,6 @@ chmod +x ~/.local/bin/swns
 
 ## Usage
 
-Enter `swns` and then choose the number following the instruction.
+```sh
+swns
+```
