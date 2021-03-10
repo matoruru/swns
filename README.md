@@ -1,5 +1,5 @@
 # swns
-**SW**itch **N**etwork **S**ervices from the command line on Mac
+**SW**itch **N**etwork **S**ervices from the command line on Mac.
 
 ![screen_recording](https://raw.githubusercontent.com/matoruru/imgs/master/swns/screen-recording.gif)
 
