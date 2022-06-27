@@ -18,14 +18,14 @@ function inputNumberLoop() {
   local switchServiceFunc="networksetup -setnetworkserviceenabled "
 
   read -e -p 'Which number (0 to quit)? ' -- SELECTED_NUM
-  
+
   if [[ "$SELECTED_NUM" = "0" ]]; then
     echo "Quit."
     exit
   fi
-  
+
   local SELECTED_SERVICE=`echo "$SERVICES" | grep -e "^\[$SELECTED_NUM\] .*$" | sed 's/\[[0-9]*\] //'`
-  
+
   if [[ $SELECTED_SERVICE == "" ]]; then
     echo "Wrong number."
     inputNumberLoop
@@ -33,10 +33,10 @@ function inputNumberLoop() {
 
     # Disable all services.
     echo "$SERVICES" | sed 's/\[[0-9]*\] //' | xargs -I{} $switchServiceFunc {} off
-  
+
     # Enable the specific one service that the user chose.
     $switchServiceFunc "$SELECTED_SERVICE" on
-  
+
     echo "You chose \"$SELECTED_SERVICE\"."
   fi
 }
